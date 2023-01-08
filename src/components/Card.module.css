@@ -1,0 +1,32 @@
+.main_container {
+    background-image: url(pattern-background-desktop.svg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    background-color: #0000ff; 
+    width: 30vw;
+    height: 75vh;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.topo_image img {
+    width: 30vw;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.text_info {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
