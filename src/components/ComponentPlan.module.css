@@ -1,0 +1,28 @@
+.component_plan {
+    background-color: hsl(225, 100%, 94%);
+    width: 25vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 1rem 0.5rem;
+}
+
+.price {
+    width: 70%;
+    text-align: left;
+    margin-left: 1vw;
+    letter-spacing: 0cm;
+}
+
+.price:first-of-type{
+    font-weight: bold;
+}
+
+p:nth-child(3n-1) {
+    color: gray;
+}
+
+.a_tag {
+    padding-right: 10px;
+}

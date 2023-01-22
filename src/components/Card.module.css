@@ -10,9 +10,9 @@
 }
 
 .container {
-    background-color: #0000ff; 
+    background-color:  hsl(225, 100%, 98%); 
     width: 30vw;
-    height: 75vh;
+    height: 80vh;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -20,13 +20,69 @@
     align-items: center;
 }
 
-.topo_image img {
-    width: 30vw;
-    border-radius: 15px 15px 0px 0px;
+.container_interno {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.text_info {
+.component_plan {
+    background-color: hsl(225, 100%, 94%);
+    width: 25vw;
     display: flex;
-    justify-content: center;
-    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 1rem 0.5rem;
+}
+
+.price {
+    width: 70%;
+    text-align: left;
+    margin-left: 1vw;
+    letter-spacing: 0cm;
+}
+
+.price:first-of-type{
+    font-weight: bold;
+}
+
+p:nth-child(3n-1) {
+    color: gray;
+}
+
+.a_tag {
+    padding-right: 10px;
+}
+
+.buttons {
+    width: 25vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+
+.buttons button {
+    width: 100%;
+    font-weight: 500;
+    border: none;
+    padding:  1rem;
+    border-radius: 10px;
+} 
+
+button:nth-child(1) {
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    box-shadow: 0px 15px 15px hsl(225, 100%, 95%);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+button:nth-child(2) {
+    background-color: hsl(225, 100%, 98%);
+    color: grey;
+    margin-bottom: 20px; 
 }

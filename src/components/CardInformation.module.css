@@ -1,0 +1,14 @@
+.component_text {
+    padding: 30px;
+}
+
+.text_info {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-weight:unset;
+}
+
+.summary_text {
+    margin-bottom: 5px;
+}
