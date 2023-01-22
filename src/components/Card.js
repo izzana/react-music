@@ -1,9 +1,9 @@
-import styles from './Card.module.css'
-import Header from './Header';
-import CardInformation from './CardInformation';
+import CardInformation from './cardInformation/CardInformation';
 import CancelButton from './buttons/CancelButton'
-import ComponentPlan from './ComponentPlan';
+import ComponentPlan from './componentPlan/ComponentPlan';
+import Header from './header/Header';
 import PaymentButton from './buttons/PaymentButton';
+import styles from './Card.module.css'
 
 const Card = () => {
     return (
